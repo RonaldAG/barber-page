@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="imagens/logo.png" alt=""></h1>
+            
+                <nav>
+                    <ul class="nav-bar">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="produto.html">Produtos</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <form action="">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name">
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone">
+
+                <label for="comment">Comentário</label>
+                <textarea name="comment" id="" cols="30" rows="10"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radio-email">E-mail</label>
+                    <input type="radio" name="contato" value="email" id="radio-email">
+
+                    <label for="radio-telefone">Telefone</label>
+                    <input type="radio" name="contato" value="email" id="radio-telefone">
+
+                    <label for="radio-whatsapp">Whatsapp</label>
+                    <input type="radio" name="contato" value="email" id="radio-whatsapp">
+
+                    <label for="notifica-checkbox">Gostaria de receber atualizações por e-mail? </label> 
+                    <input type="checkbox" id="notifica-checkbox">
+
+                </div>
+
+                <input type="submit" value="Enviar form">
+            </form>
+        </main>
+
+        <footer>
+            <img src="imagens/logo-branco.png" alt="">
+            <p>&copy; Copyright barberia alura - 2019</p>
+        </footer>
+    </body>
+</html>
