@@ -23,31 +23,25 @@
         
         <main>
             <form action="">
-                <label for="name">Nome completo</label>
-                <input type="text" id="name">
+                <label for="name" class="user-infos">Nome completo</label>
+                <input type="text" id="name" class="input-padrao">
 
-                <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <label for="email" class="user-infos">E-mail</label>
+                <input type="text" id="email" class="input-padrao">
 
-                <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <label for="telefone" class="user-infos">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
 
-                <label for="comment">Comentário</label>
-                <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                <label for="comment" class="user-infos">Comentário</label>
+                <textarea name="comment" id="" cols="30" rows="10" class="input-padrao"></textarea>
 
                 <div>
                     <p>Como prefere o nosso contato?</p>
-                    <label for="radio-email">E-mail</label>
-                    <input type="radio" name="contato" value="email" id="radio-email">
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="email" id="radio-telefone">Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="email" id="radio-whatsapp">Whatsapp</label>
 
-                    <label for="radio-telefone">Telefone</label>
-                    <input type="radio" name="contato" value="email" id="radio-telefone">
-
-                    <label for="radio-whatsapp">Whatsapp</label>
-                    <input type="radio" name="contato" value="email" id="radio-whatsapp">
-
-                    <label for="notifica-checkbox">Gostaria de receber atualizações por e-mail? </label> 
-                    <input type="checkbox" id="notifica-checkbox">
+                    <label for="notifica-checkbox"><input type="checkbox" id="notifica-checkbox" class="checkbox"> Gostaria de receber atualizações por e-mail? </label> 
 
                 </div>
 
