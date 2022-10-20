@@ -27,10 +27,10 @@
                 <input type="text" id="name" class="input-padrao">
 
                 <label for="email" class="user-infos">E-mail</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao">
 
                 <label for="telefone" class="user-infos">Telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao">
 
                 <label for="comment" class="user-infos">Comentário</label>
                 <textarea name="comment" id="" cols="30" rows="10" class="input-padrao"></textarea>
@@ -38,12 +38,22 @@
                 <div>
                     <p>Como prefere o nosso contato?</p>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
-                    <label for="radio-telefone"><input type="radio" name="contato" value="email" id="radio-telefone">Telefone</label>
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="email" id="radio-whatsapp">Whatsapp</label>
-
-                    <label for="notifica-checkbox"><input type="checkbox" id="notifica-checkbox" class="checkbox"> Gostaria de receber atualizações por e-mail? </label> 
-
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
                 </div>
+
+                <div>
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>   
+                </div>
+
+                <label for="notifica-checkbox">
+                    <input type="checkbox" id="notifica-checkbox" class="checkbox"> Gostaria de receber atualizações por e-mail? 
+                </label> 
 
                 <input type="submit" value="Enviar form">
             </form>
